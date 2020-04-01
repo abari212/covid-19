@@ -3,7 +3,16 @@
 setwd("D:/covid-19/") # as a working directory to store, prepare and analyse data
 
 ###########
-# load of libraries to process and animate the spread
+# load libraries to process and animate  
+# Prior to load, check for installed packages before running install.packages() 
+## pkg referes to package
+requiredPackages = c('plyr','ggplot2','gganimate')
+for(pkg in requiredPackages){
+  if(!require(pkg,character.only = TRUE)) install.packages(pkg)
+  library(pkg,character.only = TRUE)
+}
+###########
+# load libraries 
 library(dplyr) # prepare and process data
 library(ggplot2) # display data on a plot 
 library(leaflet) # display data on a map
@@ -19,6 +28,12 @@ file (b) on location
 # merge two dataframes by ID
 file_a <- read.table(file.choose(), header=TRUE, sep=",")
 file_b <- read.table(file.choose(), header=TRUE, sep=",")
+
+# In the case of WHO data sets available at this GitHub
+file_a <- read.csv("https://raw.githubusercontent.com/abari212/covid-19/master/covid19_by_country_csv_2020.csv")
+file_b <- read.csv("https://raw.githubusercontent.com/abari212/covid-19/master/country_google_csv.csv")
+dim(file_a)
+dim(file_b)
 
 dataset <- merge(file_a,file_b,by="country")
 
