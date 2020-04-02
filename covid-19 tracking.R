@@ -17,7 +17,7 @@ library(dplyr) # prepare and process data
 library(ggplot2) # display data on a plot 
 library(leaflet) # display data on a map
 library(gganimate) # animatation of display  data
-# library(gifski) optional for overlapping on image data.
+# library(gifski) optional for overlapping on image/raster data sets
 
 ###########
 ## Uploading and preparing datasets including image/raster datasets for simulation
@@ -71,4 +71,11 @@ spread
 spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {frame_time}")
 
 anim_save("spread.gif", spread)
+
+######
+
+# To be continued...
+
+
+
 
