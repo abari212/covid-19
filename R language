@@ -1,8 +1,8 @@
 
 R Language 
 
-R is available to download and install and run on Windows, OS X and a wide variety of Unix platforms. 
-The primary part or R language is available from its Comprehensive R Archive Network (CRAN). 
+R is an open source langauge and it is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
+The primary part or R language is available from its Comprehensive R Archive Network (CRAN) - https://cran.r-project.org/
 Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
 On overall it consists of 2 conceptual parts:
 
