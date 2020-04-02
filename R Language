@@ -14,7 +14,8 @@ R Integrated Development Environment
 
 R has also a drop-menu as well as an integrated development environment (IDE) to keep track of the work environment - RStudio
 R has also its integrated development environment (IDE) RStudio with features similar to other coding platforms such as Matlab. 
-RStudio has as syntax highlighting with four-pane workspace to type and view commands and to view results and visualizations. 
+RStudio has as syntax highlighting with four-pane workspace to type and view commands and to view results and visualizations.
+
 
 	The top left window of RStudio is in the console where command-line scripting and editing space to create a file with 
    multiple lines of R code. 
