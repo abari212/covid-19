@@ -1,7 +1,7 @@
 
-R language 
+R Language 
 
-R is available to download and install and run on Windows, OS X and “a wide variety of Unix platforms. 
+R is available to download and install and run on Windows, OS X and a wide variety of Unix platforms. 
 The primary part or R language is available from its Comprehensive R Archive Network (CRAN). 
 Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
 On overall it consists of 2 conceptual parts:
@@ -24,16 +24,22 @@ RStudio has as syntax highlighting with four-pane workspace to type and view com
 Installing R packages 
 
 In addition to the development of scripts and commands R allow to use also plenty packages. Most of these packages can be installed from the Comprehensive R Archive Network. The command for install¬ing a package is: 
+
 > install.packages(“package-name”) 
+
 In RStudio there is a packages tab to “Install Packages.” To know which packages are already available with the installation on the current working platform, type: 
+
 > installed.packages() 
 
 Prior to use any package in your working platform once it’s installed, it needs to be loaded with the following command: 
+
 > library(“package-name”) 
 
 These packages are changing all the time and to stay up to date with any package, type: 
+
 > update.packages() 
 
 There also the option to drop any package from your system using the  function: 
+
 > remove.packages(“thepackagename”) 
 
