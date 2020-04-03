@@ -76,6 +76,19 @@ anim_save("spread.gif", spread)
 
 # To be continued...
 
+spread_w <- ggplot() +
+  geom_path(data = world_map_df, aes(x = long, y = lat, group = group, colour ="grey")) + 
+  coord_fixed() + 
+  labs(title = "Covid-19 Sprea",
+       subtitle = "Covid-19 worldwide spread as of 21 Jan, 2020",
+       x = "", y = "") + # cause we don't need x and y labels do we? 
+  geom_point(data = dataset, aes(x = dataset$x, y = dataset$y,  size= 10*dataset$confirmed_cases, colour ="orange")) +
+  theme_bw()
 
+spread_w <- spread_w + transition_time(dataset$day) + labs(title = "Time (Day): {frame_time}")
+
+spread_w
+
+anim_save("spread.gif", spread)
 
 
