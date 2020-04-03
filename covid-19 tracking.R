@@ -89,6 +89,6 @@ spread_w <- spread_w + transition_time(dataset$day) + labs(title = "Time (Day): 
 
 spread_w
 
-anim_save("spread.gif", spread)
+anim_save("spread_w.gif", spread_w)
 
 
