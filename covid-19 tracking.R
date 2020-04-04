@@ -86,6 +86,11 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 anim_save("spread.gif", spread)
 
 ######
+# Track the spread on a map
+library(rgdal)
+library(raster)
+library(sf)
+
 
 spread <- ggplot() +
   geom_path(data = world_map_df, aes(x = long, y = lat, group = group, colour ="lightgrey")) + 
