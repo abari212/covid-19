@@ -2,7 +2,7 @@
 ###########
 # Install R if not already installed 
 
-# it is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
+# It is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
 # The primary part or R language is available from its Comprehensive R Archive Network (CRAN) - https://cran.r-project.org/
 # Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
 # On overall it consists of 2 conceptual parts:
