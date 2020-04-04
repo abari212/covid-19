@@ -1,5 +1,18 @@
 # spread tracking of covid-19
 ###########
+# Install R if not already installed 
+
+# it is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
+# The primary part or R language is available from its Comprehensive R Archive Network (CRAN) - https://cran.r-project.org/
+# Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
+# On overall it consists of 2 conceptual parts:
+
+1.	The “base” R part that can be download from CRAN: Linux, Windows or Mac. It consists of the most fundamental functions or R 
+2.	The add on part with all other packages to carry out data preparation and data analytics such as class, cluster, nlme, rpart, 
+    spatial and nnet
+
+# Create a directory 
+###
 setwd("D:/covid-19/") # as a working directory to store, prepare and analyse data
 
 ###########
