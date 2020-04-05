@@ -1,8 +1,10 @@
-# spread tracking of covid-19
-###########
-# Install R if not already installed 
+######################################################################################
+# Tracking and modeling the spread of covid-19 - A Bari, OperAI 2020                 #
+######################################################################################
 
-# It is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
+# To strart install R if not already installed 
+
+# R is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
 # The primary part or R language is available from its Comprehensive R Archive Network (CRAN) - https://cran.r-project.org/
 # Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
 # On overall it consists of 2 conceptual parts:
@@ -87,7 +89,7 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 
 anim_save("spread.gif", spread)
 
-######
+#########################
 # Track the spread on a map
 library(rgdal)
 library(raster)
@@ -114,8 +116,8 @@ anim_save("spread_w.gif", spread)
 
 
 ###################################3
-
-# Detecting patterns in data (modeling)
+# Tracking ahead 
+# Detecting patterns and predictive modeling 
 
 # The approch will be based on the assumption that nearby georeferenced locations (name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. 
 # It is likely that the data are linked some how either in space or time or both. 
