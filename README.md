@@ -40,7 +40,9 @@ The overall approach is based on the assumption that nearby georeferenced locati
 
 One the metrics used to measure the extent of this association or link bewteen these incidences is the variogram, which is as a way to detect on how spatial data are related along with the kriging method as an interpolation procedure. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data. 
 
-To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatial data. 
+To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatio-temporal data. 
+
+The code is at https://github.com/abari212/covid-19/blob/master/covid-19%20tracking.R and will be updated along with data.
  
 
 
