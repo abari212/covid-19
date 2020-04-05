@@ -13,15 +13,15 @@ In this study case the data on the incidence was extracted from UN World Health 
 
 For the code, data can be prepared as two datasets:
 
-A dataset (file a) with the name of the loaction with the incidence, in the form of: 
+A dataset (file a) with the name of the location with the incidence, in the form of: 
   Date,
   Location name, 
   Incidence (number of cases).
 
-A dataset (file b) with geolocation data of the location (NOT the person) where the incidence occured (number of cases):
+A dataset (file b) with geolocation data of the location (NOT the person) where the incidence occurred (number of cases):
   Location name,
-  Longitutde,
-  Latitudde.
+  Longitude,
+  Latitude.
  
 The two datasets can be feed to the algorithm as file a and file b.
  
