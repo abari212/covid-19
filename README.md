@@ -1,11 +1,11 @@
 # Covid-19
-Tracking to curb the virus spread
 
-This repository contains both codes and data (as a study case) to help to track and eventually help to curb the spread of covid-19, 
+Tracking and modeling to help curb the covid-19 virus spread.
+
+This repository contains both codes and data (as a study case) to track? model and collaborate to help curb the spread of covid-19, 
 in consultation with people from the domain. 
 
 Tracking is another effective measure to curb the spread of covid-19, in addition to physical distancing. 
-This is a simple animation that I have been working using R, of which this script is available. 
 This script can be used at a much more granular scale, such as a municipality/city. 
 https://www.linkedin.com/posts/abdallah-bari-2a788b14_covid19-patterns-physicaldistancing-activity-6652257884052742144-7_Tv
 
@@ -32,7 +32,9 @@ Other variables can be added to the merged data for more in-depth analysis and p
 There a number of ways to add other variables and develop predictive model. 
 Some of the examples prediction are also available at https://github.com/abari212/mca. 
  
- 
+Data can also be feed as stream data to help with near-real time prediction and prevention.
+
+
 Detecting patterns in data
 
 The overall approach is based on the assumption that nearby georeferenced locations (name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. It is likely that the data are linked some how either in space or time or both. 
@@ -40,12 +42,6 @@ The overall approach is based on the assumption that nearby georeferenced locati
 One the metrics usded is variogram as a way to detect on how spatial data are related along with the kriging method as an interpolation procedure. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is now known as a spatial prediction methodology in the context of spatial data. 
 
 To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatial data. 
-
- 
-
-
- 
- 
  
 
 
