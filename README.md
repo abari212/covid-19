@@ -2,7 +2,7 @@
 
 Tracking and modeling to help curb the covid-19 virus spread.
 
-This repository contains both codes and data (as a study case) to track and model the spread of covid-19, and help to curb its spread in consultation with people from the domain. 
+This repository contains both codes and data (as a study case) to track and model the spread of covid-19, and help to curb its spread in consultation with people from the health domain. 
 
 Tracking is another effective measure to curb the spread of covid-19, in addition to physical distancing. 
 This script can be used at a much more granular scale, such as a municipality/city. 
