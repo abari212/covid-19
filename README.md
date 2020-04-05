@@ -1,7 +1,7 @@
 # Covid-19
 Tracking to curb the virus spread
 
-This repository contains both codes and data to help to track and curb the virus spread.
+This repository contains both codes and data to help to track and eventually help to curb the spread of covid-19, in consultation with people from the domain. 
 
 Tracking is another effective measure to curb the spread of covid-19, in addition to physical distancing. This is a simple animation that I have been working using R, of which a script is available at my GitHub. The same script can be used at a much more granular scale, such as a city. https://lnkd.in/eYBjjx2
 
