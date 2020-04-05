@@ -11,6 +11,8 @@
 2.	The add on part with all other packages to carry out data preparation and data analytics such as class, cluster, nlme, rpart, 
     spatial and nnet
 
+# R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatial data.
+############
 # Create a directory 
 ###
 setwd("D:/covid-19/") # as a working directory to store, prepare and analyse data
@@ -110,6 +112,15 @@ spread
 
 anim_save("spread_w.gif", spread)
 
+
+###################################3
+
+# Detecting patterns in data (modeling)
+
+# The approch will be based on the assumption that nearby georeferenced locations (name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. 
+# It is likely that the data are linked some how either in space or time or both. 
+# To create maps R module applied to irregularly spaced data where the correlation between thee geographical locationss is understood to be an exponential function of the distance, was used. 
+ 
 
 # To be continued...
 
