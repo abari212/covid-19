@@ -25,7 +25,7 @@ A dataset (file b) with geolocation data of the location (NOT the person) where 
  
 The two datasets can be feed to the algorithm as file a and file b.
  
-Once the two files are uploaded all the rest will be done automatically to generate the sread and eventually the patterns, if any.
+Once the two files are uploaded all the rest will be done automatically to generate the spread and eventually the patterns, if any.
  
 Other variables can be added to the merged data for more in-depth analysis and prediction. 
 There a number of ways to add other variables and develop predictive model. 
@@ -34,11 +34,11 @@ Some of the examples prediction are also available at https://github.com/abari21
 Data can also be feed as stream data to help with near-real time prediction and prevention.
 
 
-Detecting patterns in data
+Detecting patterns in the data
 
-The overall approach is based on the assumption that nearby georeferenced locations (name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. It is likely that the data are linked some how either in space or time or both. 
+The overall approach is based on the assumption that nearby georeferenced locations (such a county name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. It is likely that the data are linked some how either in space or time or both. 
 
-One the metrics used to measure the extent of this association or link bewteen these incidences is the variogram, which is as a way to detect on how spatial data are related along with the kriging method as an interpolation procedure. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data. 
+One the metrics used to measure the extent of this association or dependency, bewteen these incidences, is the variogram. It is used as a way to detect on how spatial data are related as a prerequisite for prediction in comobination with kriging method. The later is used, in turn, as an interpolation procedure based on the degree of this dependency. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data. 
 
 To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatio-temporal data. 
 
