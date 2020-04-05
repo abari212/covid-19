@@ -13,7 +13,7 @@ In this study case the data on the incidence was extracted from UN World Health 
 
 For the code, data can be prepared as two datasets:
 
-A dataset (file a) with the name of loaction with the incidence, in the form of: 
+A dataset (file a) with the name of the loaction with the incidence, in the form of: 
   Date,
   Location name, 
   Incidence (number of cases).
@@ -38,7 +38,7 @@ Detecting patterns in data
 
 The overall approach is based on the assumption that nearby georeferenced locations (name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. It is likely that the data are linked some how either in space or time or both. 
 
-One the metrics usded is variogram as a way to detect on how spatial data are related along with the kriging method as an interpolation procedure. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is now known as a spatial prediction methodology in the context of spatial data. 
+One the metrics usded to measure the extent of this association bewteen these incidences is the variogram, which is as a way to detect on how spatial data are related along with the kriging method as an interpolation procedure. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data. 
 
 To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatial data. 
  
