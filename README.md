@@ -9,7 +9,7 @@ This script can be used at a much more granular scale, such as a municipality/ci
 https://www.linkedin.com/posts/abdallah-bari-2a788b14_covid19-patterns-physicaldistancing-activity-6652257884052742144-7_Tv
 
 The data used consists of two sets, one on the virus incidence (number of cases) and one on the geo-location information of the area  where the incidence occured. 
-In this study case the data on the incidence was extracted from UN World Health Organisation (WHO) daily reports and the data on the geo-location from Google.
+In this study case the data on the incidence was extracted from UN World Health Organisation (WHO) daily reports and the data on the geo-location from Google. Case illustration at https://github.com/abari212/covid-19/blob/master/spread_w.gif
 
 For the code, data can be prepared as two datasets:
 
