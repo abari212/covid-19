@@ -19,7 +19,7 @@ A dataset (file a) with the name of loaction with the incidence, in the form of:
   Location name, 
   Incidence (number of cases).
 
-A dataset (file b) with geolocation data of the location (NOT the person) where the incidence occured (number of cases)
+A dataset (file b) with geolocation data of the location (NOT the person) where the incidence occured (number of cases):
   Location name,
   Longitutde,
   Latitudde.
