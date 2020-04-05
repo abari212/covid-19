@@ -17,8 +17,8 @@ To tailor the codes to any area
 Data can be prepared as two datasets:
 
 A dataset (file a) with the name loaction and the incidence in the form of: 
-  Date
-  Location
+  Date,
+  Location name, 
   Incidence (number of cases)
 
 A dataset (file b) with geolocation data of the location where the incidence occured (number of cases)
@@ -29,9 +29,9 @@ A dataset (file b) with geolocation data of the location where the incidence occ
  
 The two datasets can be feed to the algorithm as file a and file b
  
-Once the two files are uploaded all the rest will be done automatically to generate the soread and eventually the patterns, if any.
+Once the two files are uploaded all the rest will be done automatically to generate the sread and eventually the patterns, if any.
  
-
+Other variables can be added to the merged data for more in-depth analysis and prediction.
  
  
  
