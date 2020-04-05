@@ -31,9 +31,6 @@ Other variables can be added to the merged data for more in-depth analysis and p
 There a number of ways to add other variables and develop predictive model. 
 Some of the examples prediction are also available at https://github.com/abari212/mca. 
  
-Data can also be feed as stream data to help with near-real time prediction and prevention.
-
-
 Detecting patterns in the data
 
 The overall approach is based on the assumption that nearby georeferenced locations (such a county name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. It is likely that the data are linked some how either in space or time or both. 
