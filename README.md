@@ -23,7 +23,7 @@ The two datasets can be feed to the algorithm as file a and file b
  
 Once the two files are uploaded all the rest will be done automatically to generate the sread and eventually the patterns, if any.
  
-Other variables can be added to the merged data for more in-depth analysis and prediction. There a number of ways to add other variables and develop predictive model. Some of the examples are also available at  
+Other variables can be added to the merged data for more in-depth analysis and prediction. There a number of ways to add other variables and develop predictive model. Some of the examples prediction are also available at https://github.com/abari212/mca. 
  
  
  
