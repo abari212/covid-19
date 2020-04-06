@@ -1,15 +1,15 @@
 # Covid-19
 
-Tracking and modeling to help curb the covid-19 virus spread.
+Tracing and modeling to help curb the covid-19 virus spread.
 
-This repository contains both codes and data (as a study case) to track and model the spread of covid-19, and help to curb its spread in consultation with people from the health domain. 
+This repository contains both codes and data (as a study case) to trace and model the spread of covid-19, and help to curb its spread in consultation with people from the health domain. 
 
-Tracking is another effective measure to curb the spread of covid-19, in addition to physical distancing. 
+Tracing is another effective measure to curb the spread of covid-19, in addition to physical distancing. 
 This script can be used at a much more granular scale, such as a municipality/city. 
 https://www.linkedin.com/posts/abdallah-bari-2a788b14_covid19-patterns-physicaldistancing-activity-6652257884052742144-7_Tv
 
 The data used consists of two sets, one on the virus incidence (number of cases) and one on the geo-location information of the area  where the incidence occured. 
-In this study case the data on the incidence was extracted from UN World Health Organisation (WHO) daily reports and the data on the geo-location from Google. Case illustration at https://github.com/abari212/covid-19/blob/master/spread_w.gif
+In this study case the data on the incidence was extraced from UN World Health Organisation (WHO) daily reports and the data on the geo-location from Google. Case illustration at https://github.com/abari212/covid-19/blob/master/spread_w.gif
 
 For the code, data can be prepared as two datasets:
 
@@ -39,7 +39,7 @@ One the metrics used to measure the extent of this association or dependency, be
 
 To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatio-temporal data. 
 
-The code is at https://github.com/abari212/covid-19/blob/master/covid-19%20tracking.R and will be updated along with data.
+The code is at and will be updated along with data.
  
 
 
