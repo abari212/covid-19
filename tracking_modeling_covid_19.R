@@ -6,7 +6,7 @@
 # To start install R if not already installed 
 
 # R is available to download and install to run on Windows, OS X and a wide variety of Unix platforms. 
-# The primary part or R language is available from its Comprehensive R Archive Network (CRAN) - https://cran.r-project.org/
+# The primary part of R language is available from its Comprehensive R Archive Network (CRAN) - https://cran.r-project.org/
 # Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
 # On overall it consists of 2 conceptual parts:
 
@@ -90,9 +90,7 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 
 anim_save("spread.gif", spread)
 
-#########################
-
-###################################3
+###################################
 # Tracking ahead 
 # Detecting patterns and predictive modeling 
 
