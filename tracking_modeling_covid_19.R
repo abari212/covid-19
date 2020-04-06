@@ -1,7 +1,9 @@
-######################################################################################
-# Tracking and modeling the spread of covid-19 - A Bari, OperAI 2020                 #
-#                                                                                    #
-######################################################################################
+#########################################################################################################
+# Tracking and modeling the spread of covid-19 - A Bari, OperAI 2020                                     #
+# Main aim is to help to slow the spread of the virus by flattening its growth curve.                    #
+# “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). #
+# https://www.nytimes.com/article/flatten-curve-coronavirus.html                                         #                                                                                   #
+##########################################################################################################
 
 # To start install R if not already installed 
 
