@@ -23,7 +23,7 @@
 # setwd("D:/covid-19/") # as a working directory to store, prepare and analyse data
 
 ###########
-# load libraries to process and display the results 
+# Load libraries to process and display the results 
 # Prior to loading process, check for installed packages before running install.packages() 
 ## pkg refers to package
 requiredPackages = c('plyr','ggplot2','gganimate')
@@ -37,7 +37,7 @@ library(dplyr) # prepare and process data
 library(ggplot2) # display data on a plot 
 library(leaflet) # display data on a map
 library(gganimate) # animation of display  data
-# library(gifski) optional for laying the results output on image/raster data sets
+# library(gifski) optional for laying the results output on image/raster data sets in a later stage
 
 ###########
 ## Uploading and preparing datasets including image/raster datasets for simulation
