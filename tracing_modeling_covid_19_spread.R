@@ -93,7 +93,7 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 # anim_save("spread.gif", spread)
 
 ###################################
-# Tracking ahead 
+# Tracing and predicting the spread ahead 
 # Detecting patterns and predictive modeling 
 
 # The approch will be based on the assumption that nearby georeferenced locations (name), with covid-19 cases, are associated in some way as a result of their proximity in space and time. 
