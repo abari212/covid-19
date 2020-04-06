@@ -36,8 +36,8 @@ for(pkg in requiredPackages){
 library(dplyr) # prepare and process data
 library(ggplot2) # display data on a plot 
 library(leaflet) # display data on a map
-library(gganimate) # animatation of display  data
-# library(gifski) optional for overlapping on image/raster data sets
+library(gganimate) # animation of display  data
+# library(gifski) optional for laying the results output on image/raster data sets
 
 ###########
 ## Uploading and preparing datasets including image/raster datasets for simulation
