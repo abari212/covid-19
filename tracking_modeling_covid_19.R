@@ -10,9 +10,9 @@
 # Many add-on packages used to extend the functionality of R language are also hosted in the CRAN.
 # On overall it consists of 2 conceptual parts:
 
-1.	The "base" R part that can be download from CRAN: Linux, Windows or Mac. It consists of the most fundamental functions or R 
-2.	The add on part with all other packages to carry out data preparation and data analytics such as class, cluster, nlme, rpart, 
-spatial and nnet
+1.	The "base" R part that can be download from CRAN: Linux, Windows or Mac. It consists of the most fundamental functions of R 
+2.	The add on part with all other packages to carry out data preparation and data analytics such as class (classification), cluster, nlme (non-linear moldeling, rpart, 
+spatial (spatial analytics) and nnet (neural networks) for machine learning.
 
 # R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatial data.
 ############
