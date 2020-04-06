@@ -137,21 +137,21 @@ world_map <- readOGR("world_map/ne_10m_coastline.shp")
 class(world_map)
 extent(world_map)
 
-# Projecion information of the map
+# Projecion information of the loaded map
 crs(coastlines)
 
 # Display the map
 plot(coastlines, 
      main = "World Map")
 
-# To limit and simplify the geometry of the map
+# To limit and simplify the geometry of the map, if needed!
 world_map_simp <- gSimplify(world_map, 
                             tol = 3, 
                             topologyPreserve = TRUE)
 plot(world_map_simp,
      main = "World map with boundaries simplified")
 
-# Simplify with a lower tolerance value (keeping more detail)
+# Simplify with a lower tolerance value, while keeping more detail.
 world_map_2 <- gSimplify(world_map, 
                          tol = .1, 
                          topologyPreserve = TRUE)
@@ -161,13 +161,14 @@ plot(world_map_2,
 # Convert map data into data frame to use with ggplot
 world_map_df <- SpatialLinesDataFrame(world_map_2,
                                       coastlines@data) 
-# Dsiplay the map 
+# Dsiplay the map with its title
 ggplot() +
   geom_path(data = world_map_df, aes(x = long, y = lat, group = group)) +
   labs(title = "World Map")
 
 ###############
-# Display the spread dynamics
+# Display the spread dynamics on top of the mpa
+# Combining the map data (location) with the virus data (incidence)
 ###############
 
 spread_w <- ggplot() +
