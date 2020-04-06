@@ -73,7 +73,7 @@ miny <- min(dataset$y)
 maxx <- mean(dataset$x)
 maxy <- mean(dataset$y)
 
-# Dispay of spread geographically and over time (day or hour)
+# Display of spread geographically and over time (day or hour)
 
 spread <- ggplot(
   dataset, 
@@ -86,7 +86,7 @@ spread <- ggplot(
 
 spread
 
-# Transition through time 
+# Transition through time (here daily basis but it could also be on hourly basis)
 
 spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {frame_time}")
 
@@ -102,7 +102,7 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 
 
 ##########################
-# Dispay data on maps
+# Display data on maps
 
 library("ggplot2")
 theme_set(theme_bw())
@@ -120,7 +120,7 @@ class(world)
 
 # Load the shape file data in three steps
 # 
-# step 1 - downlOad the zip file
+# step 1 - download the zip file
 download.file("https://raw.githubusercontent.com/abari212/data/master/coastlines.zip", 
               destfile = 'coastlines.zip')
 
@@ -128,7 +128,7 @@ download.file("https://raw.githubusercontent.com/abari212/data/master/coastlines
 unzip(zipfile = "coastlines.zip", 
       exdir = 'world_map')
 
-# step 3 - load the data by openning the shape file using readOGR from the sp (spatial) package.
+# step 3 - load the data by opening the shape file using readOGR from the sp (spatial) package.
 world_map <- readOGR("world_map/ne_10m_coastline.shp")
 ## OGR data source with driver: ESRI Shapefile 
 
@@ -150,7 +150,7 @@ world_map_simp <- gSimplify(world_map,
 plot(world_map_simp,
      main = "World map with boundaries simplified")
 
-# simplify with a lower tolerance value (keeping more detail)
+# Simplify with a lower tolerance value (keeping more detail)
 world_map_2 <- gSimplify(world_map, 
                          tol = .1, 
                          topologyPreserve = TRUE)
@@ -187,7 +187,7 @@ spread_w
 
 ################
 
-# Track the spread on a map
+# Trace the spread on a map
 library(rgdal)
 library(raster)
 library(sf)
