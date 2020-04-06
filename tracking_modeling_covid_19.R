@@ -200,7 +200,7 @@ spread <- ggplot() +
   scale_size(range = c(0, 30)) +
   labs(title = "Covid-19 Spread",
        subtitle = "Covid-19 worldwide spread since 21 Jan, 2020 - OperAI",
-       x = "Longitude", y = "Latitude") + # cause we don't need x and y labels do we? 
+       x = "Longitude", y = "Latitude") + # coordinates
   geom_point(data = dataset, aes(x = dataset$x, y = dataset$y,  size= dataset$confirmed_cases, colour =dataset$country)) +
   theme_bw()+
   theme(legend.position = "none")
