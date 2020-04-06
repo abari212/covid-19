@@ -39,7 +39,7 @@ One the metrics used to measure the extent of this association or dependency, be
 
 To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatio-temporal data. 
 
-The code is at and will be updated along with data.
+The code is at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
  
 
 
