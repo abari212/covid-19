@@ -1,4 +1,4 @@
-This is an update version from last week 
+This is an updateD version from last week - March 31st, 2020
 ###########################################################################################################
 # Tracing and modeling the spread of covid-19 - A Bari, OperAI 2020                                       #
 # Main aim is to help to slow the spread of the virus and flatten its growth curve.                       #
@@ -224,3 +224,7 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 spread 
 
 # anim_save("spread_w.gif", spread)
+
+#######
+
+# To be updated ...
