@@ -1,3 +1,4 @@
+This is an update version from last week 
 ###########################################################################################################
 # Tracing and modeling the spread of covid-19 - A Bari, OperAI 2020                                       #
 # Main aim is to help to slow the spread of the virus and flatten its growth curve.                       #
@@ -107,7 +108,8 @@ spread <- spread + transition_time(dataset$day) + labs(title = "Time (Day): {fra
 
 library("ggplot2")
 theme_set(theme_bw())
-library("sf")
+library("sf") # sf is a formal standard (ISO 19125-1:2004) way to represent spatial geometry (shape) of real objects in computers.
+
 # For mapping purpose we could use different sources, such as ESRI map shape file 
 # The package rnaturalearth provides such shape map files of countries for the entire world. 
 # As a function "ne_countries" can be used to pull country data and choose the scale (rnaturalearthhires is necessary for scale = "large"). 
