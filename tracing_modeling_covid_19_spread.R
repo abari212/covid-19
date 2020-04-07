@@ -17,7 +17,6 @@ This is an update version from last week
 # 1.	The "base" R part that can be download from CRAN: Linux, Windows or Mac. It consists of the most fundamental functions of R 
 # 2.	The add on part with all other packages to carry out data preparation and data analytics such as class (classification), cluster, nlme (non-linear moldeling, rpart, 
                                                                                                                                            spatial (spatial analytics) and nnet (neural networks) for machine learning.
-
 # R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatial data.
 ############
 # Create a directory 
@@ -141,6 +140,9 @@ world_map <- readOGR("world_map/ne_10m_coastline.shp")
 ## OGR data source with driver: ESRI Shapefile 
 
 # Map spatial attributes and extent
+# For spatial attributes, such as  spatial extent (extremes) of spatial (shape) objects
+library(raster) #  has the capability dealing with spatial data/ gridded spatial data
+# ranging from reading, writing, manipulating, analyzing and modeling
 class(world_map)
 extent(world_map)
 
