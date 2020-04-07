@@ -132,6 +132,11 @@ unzip(zipfile = "coastlines.zip",
       exdir = 'world_map')
 
 # step 3 - load the data by opening the shape file using readOGR from the sp (spatial) package.
+# This step requires also
+library(rgdal) # A library for bindings to the 'Geospatial' Data Abstraction Library ('GDAL') and 
+# and for accessing the projection operations from the 'PROJ.4' library.
+# To allow readOGR function to read an OGR data source and layer into a Spatial data object
+
 world_map <- readOGR("world_map/ne_10m_coastline.shp")
 ## OGR data source with driver: ESRI Shapefile 
 
