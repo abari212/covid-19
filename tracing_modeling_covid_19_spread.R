@@ -160,7 +160,10 @@ world_map_simp <- gSimplify(world_map,
 plot(world_map_simp,
      main = "World map with boundaries simplified")
 
-# Simplify with a lower tolerance value, while keeping more detail.
+# The following procedure will use a library that is an Interface Open Source ('GEOS') for topology operations on geometries.
+library(rgeos)
+# Its function "gSimplify" is used to simplify given geometry using the Douglas-Peuker algorithm
+# Simplify is used here with a lower tolerance value, while keeping some more details.
 world_map_2 <- gSimplify(world_map, 
                          tol = .1, 
                          topologyPreserve = TRUE)
