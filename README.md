@@ -2,15 +2,12 @@
 
 Tracing and modeling to help curb the covid-19 virus spread.
 
-This repository contains both codes and data (UN World Health Organisation data) to help to trace and model the spread of covid-19, and help to curb its spread in consultation with people from the health domain. 
+This repository contains both codes and data (UN World Health Organisation data, as a case) to help to trace and model the spread of covid-19. Tracing has been found to be an effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
 
-Tracing is another effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
-
-This script can be used at a much more granular scale, such as a municipality/city. 
+The script can be more at useful at a much more granular scale, such as a municipality/city. 
 https://www.linkedin.com/posts/abdallah-bari-2a788b14_covid19-patterns-physicaldistancing-activity-6652257884052742144-7_Tv
 
-The UN-WHO data used consists of two sets, one on the virus incidence (number of cases) and one on the geo-location information of the area where the incidence occurred. 
-The study case the data on the incidence was extracted from UN-WHO daily reports and the data on the geo-location from Google. Case illustration at https://github.com/abari212/covid-19/blob/master/spread_w.gif
+The UN-WHO data used consists of two sets, one on the virus incidence (number of cases) and one on the geo-location information of the area where the incidence occurred. The data on the incidence was extracted from UN-WHO daily reports and the data on the geo-location from Google. Case illustration at https://github.com/abari212/covid-19/blob/master/spread_w.gif
 
 For the code, data can be prepared as two datasets:
 
