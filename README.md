@@ -39,3 +39,9 @@ To create maps R module applied to irregularly spaced data where the correlation
 
 The code is at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
 
+Privacy matters!
+
+Tracing and modeling are carried out based on privacy-preserving approaches, without using any personal information. Privacy experts in Europe have developed an approach called Decentralized Privacy-Preserving Proximity Tracing (DP-PPT) for that matter. Paper on DP-PPT approach is available at https://lnkd.in/f9etcRp.
+
+The approach that we have been using is also a privacy-preserving based approach to trace and predict the trends. As the situation unfolds, the "risks intersecting with the coronavirus crisis may drive developments in a direction that undermine individual privacy rights", wrote Natasha Lomas. https://lnkd.in/fy3-MB3
+Privacy also matters in this project.
