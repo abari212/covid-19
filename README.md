@@ -2,6 +2,10 @@
 
 Tracing and modeling to help curb the covid-19 virus spread.
 
+-------------------
+The code is at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
+-------------------
+
 This repository contains both codes and data (UN World Health Organisation data, as a case) to help to trace and model the spread of covid-19. Tracing has been found to be an effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
 
 The script can be more relevant at a much more granular scale, such as a municipality/city. 
