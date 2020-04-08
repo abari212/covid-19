@@ -1,4 +1,4 @@
-This is an updateD version from last week - March 31st, 2020
+This is an updated version from last week - March 31st, 2020
 ###########################################################################################################
 # Tracing and modeling the spread of covid-19 - OperAI 2020                                       #
 # Main aim is to help to slow the spread of the virus and flatten its growth curve.                       #
