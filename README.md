@@ -35,7 +35,7 @@ Some of the examples on predictive modeling or prediction are also available at 
  
 Detecting patterns/ Predictive modeling
 
-The overall approach of prediction is based on the assumption that nearby georeferenced locations (such a county name), with covid-19 incidence/cases, are associated in some way to each other, as a result of their proximity in space and time. It is likely that the incidence are linked somehow either in space or time or both. 
+The overall approach of prediction is based on the assumption that nearby georeferenced locations (such a county name), with covid-19 incidence/cases, are associated in some way to each other, as a result of their proximity in space and time. It is likely that the incidence are linked somehow either in space or time or both. More details at https://github.com/abari212/covid-19/blob/master/modeling
 
 One of the metrics used to measure the extent of this association or dependency, between these incidences, is the variogram. It is used as a way to detect on how spatial data are related as a prerequisite for prediction in combination with kriging method. The latter is used, in turn, as an interpolation procedure based on the degree of this dependency. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data. 
 
