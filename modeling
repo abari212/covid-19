@@ -1,7 +1,7 @@
 
 Modeling the spread
 
-Modeling is being carried out based on the variogram, which is used as a metic to to detect on how spatial data are related as a prerequisite for prediction in combination with kriging method. The latter is used, in turn, as an interpolation procedure based on the degree of this dependency. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data.
+Modeling is being carried out based on the variogram, which is used as a metic to measure the extent by which spatial data are related as a prerequisite for prediction in combination with kriging method. The latter is used, in turn, as an interpolation procedure based on the degree of this dependency. By analogy the process can be considered as that of a Bayesian approach defining a prior distribution function that is used to generate the a posteriori predictions. Kriging is also known as a spatial prediction methodology in the context of spatio-temporal data.
 
 The Variogram 
 The variogram information is thus generated from sets of these neighboring geographical locations that are correlated together or dependent on each other. If the geographical positions are correlated in space, the difference between two random associated variables Z(si) and Z(si+h) is expressed as a function of geographical distance h between the two geographical positions as follows:
