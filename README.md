@@ -3,7 +3,7 @@
 Tracing and modeling to help curb the covid-19 virus spread.
 
 -------------------
-The code is at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
+The codes are at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
 -------------------
 
 This repository contains both codes and data (UN World Health Organisation data, as a case) to help to trace and model the spread of covid-19. Tracing has been found to be an effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
@@ -49,3 +49,7 @@ Tracing and modeling are carried out based on privacy-preserving approaches, wit
 
 The approach that we have been using is also a privacy-preserving based approach to trace and predict the trends. As the situation unfolds, the "risks intersecting with the coronavirus crisis may drive developments in a direction that undermine individual privacy rights", wrote Natasha Lomas. https://lnkd.in/fy3-MB3
 Privacy also matters in this project.
+
+
+---------------------------------------------------
+More codes are freely also available with the book https://www.amazon.com/Working-Big-Data-Scaling-Discovery-ebook/dp/B0786QHJL7/
