@@ -6,7 +6,7 @@ Modeling is being carried out based on the variogram, which is used as a metic t
 The Variogram 
 The variogram information is thus generated from sets of these neighboring geographical locations that are correlated together or dependent on each other. If the geographical positions are correlated in space, the difference between two random associated variables Z(si) and Z(si+h) is expressed as a function of geographical distance h between the two geographical positions as follows:
  
-The variogram is expressed as the expected value of the squared difference between the two variables Z(si) and Z(si+h), separated by a distance h (Cressie 1993), Where h is the lag, which can be here the Euclidean distance between any two geographical locations.
+Mathemtically it is expressed as the expected value of the squared difference between the two variables Z(si) and Z(si+h), separated by a distance h (Cressie 1993), Where h is the lag, which can be here the Euclidean distance between any two geographical locations.
 A typical variogram represents the spatial behavior that can be detected from it as the constant (c0), called the nugget variance, the range or distance (ae), beyond which the geographical positions or stations are independent, and the sill (ce), the maximum value reached at the distance (ae). Here we used the Exponential variogram model.
   
 The exponential model occurs when changes in boundaries are a major source of variation.
