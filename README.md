@@ -52,4 +52,5 @@ Privacy also matters in this project.
 
 
 ---------------------------------------------------
-More codes are freely also available with the book https://www.amazon.com/Working-Big-Data-Scaling-Discovery-ebook/dp/B0786QHJL7/
+More codes are freely also available at https://github.com/abari212/mca, 
+related the book on data prepration and modeling at https://www.amazon.com/Working-Big-Data-Scaling-Discovery-ebook/dp/B0786QHJL7/
