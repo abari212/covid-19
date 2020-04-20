@@ -1,6 +1,6 @@
 # Covid-19
 
-Tracing and modeling to help curb the covid-19 virus spread.
+Tracing and modeling to help curb the covid-19 virus spread. Modeling can help to avoid surges, ahead of time.
 
 -------------------
 The codes are at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
