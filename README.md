@@ -51,6 +51,10 @@ The approach that we have been using is also a privacy-preserving based approach
 Privacy also matters in this project.
 
 
+------------
+some othe github data sources : https://github.com/looker/covid19
+
+
 ---------------------------------------------------
 More codes are freely also available at https://github.com/abari212/mca, 
 related the book on data prepration and modeling at https://www.amazon.com/Working-Big-Data-Scaling-Discovery-ebook/dp/B0786QHJL7/
