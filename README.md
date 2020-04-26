@@ -33,12 +33,7 @@ Other variables can be added to the merged data for more in-depth analysis and p
 There a number of ways to add other variables and develop predictive model. 
 Some of the examples on predictive modeling or prediction are also available at https://github.com/abari212/mca. 
  
-Detecting patterns/ Predictive modeling
-
-The overall approach of prediction is based on the assumption that nearby georeferenced locations (such a county name), with covid-19 incidence/cases, are associated in some way to each other, as a result of their proximity in space and time. To create maps R module applied to irregularly spaced data where the correlation between geographical locations is understood to be an exponential function of the distance, was used. R is becoming a de facto platform to develop and share mathematical scripts as well as data including spatio-temporal data. 
-
-The code is at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
-
+--------
 Privacy matters!
 
 Tracing and modeling are carried out based on privacy-preserving approaches, without using any personal information. Privacy experts in Europe have developed an approach called Decentralized Privacy-Preserving Proximity Tracing (DP-PPT) for that matter. Paper on DP-PPT approach is available at https://lnkd.in/f9etcRp.
