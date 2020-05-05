@@ -1,6 +1,6 @@
 # Covid-19
 
-Tracing (non-contact based) and modeling to help curb the covid-19 virus spread. Modeling can help to avoid surges, ahead of time.
+Tracing (non-contact) and modeling to help curb the covid-19 virus spread. Modeling can help to avoid surges, ahead of time.
 
 -------------------
 The codes are at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
@@ -39,7 +39,7 @@ Privacy matters!
 
 Tracing and modeling are carried out based on privacy-preserving approaches, without using any personal information. Privacy experts in Europe have developed an approach called Decentralized Privacy-Preserving Proximity Tracing (DP-PPT) for that matter. Paper on DP-PPT approach is available at https://lnkd.in/f9etcRp.
 
-The approach that we have been using is also a privacy-preserving based approach, which is a "non-contact-based" approach, to trace and predict the trends. It is a non contact tracing porcedure. As the situation unfolds, there are also risks that contact tracing may be the norme and that these "risks intersecting with the coronavirus crisis may drive developments in a direction that might undermine individual privacy rights", wrote Natasha Lomas at https://lnkd.in/fy3-MB3. 
+The approach that we have been using is also a privacy-preserving based approach, which is based a "non-contact tracing" approach, to trace and predict the trends. It is a non contact tracing porcedure. As the situation unfolds, there are also risks that contact tracing may be the norme and that these "risks intersecting with the coronavirus crisis may drive developments in a direction that might undermine individual privacy rights", wrote Natasha Lomas at https://lnkd.in/fy3-MB3. 
 
 Privacy matters in this project.
 
