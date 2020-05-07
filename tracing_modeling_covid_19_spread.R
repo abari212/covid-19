@@ -2,7 +2,7 @@ This is an updated version from prevoius version of March 31st, 2020, more updat
 -----------------------------------------------------------------------------------------------------------
 
 ###########################################################################################################
-# Tracing and modeling the spread of covid-19 - OperAI 2020                                       #
+# Tracing, based on a privacy-preserving approach, and modeling the spread of covid-19 - OperAI 2020                                       #
 # Main aim is to help to slow the spread of the virus and flatten its growth curve.                       #
 # "Slowing the spread of the infection is nearly as important as stopping it", NY Times (27 March 2020).  #
 # https://www.nytimes.com/article/flatten-curve-coronavirus.html                                          #
