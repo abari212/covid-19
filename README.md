@@ -1,6 +1,6 @@
 # Covid-19
 
-Tracing based on privacy-preserving approach and complex modeling to help curb the covid-19 virus spread. Modeling can help to avoid outbreacks/surges, ahead of time.
+Tracing based on privacy-preserving approach and modeling are being explored to help curb the covid-19 virus spread. Modeling can help to avoid outbreacks/surges, ahead of time.
 
 -------------------
 The codes are at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
@@ -45,7 +45,7 @@ Privacy matters in this project.
 
 
 ------------
-Some other github data sources at : 
+Some other GitHub data sources at : 
 Looker Data Repository - https://github.com/looker/covid19
 Johns Hopkins University (JHU/CSSE) COVID-19 datasets - https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
