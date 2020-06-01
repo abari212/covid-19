@@ -1,0 +1,15 @@
+
+# Not run: 
+# plot all available symbol shapes:
+if (require(ggplot2)) {
+  ggplot(data.frame(p=c(0:25,32:127))) +
+    geom_point(aes(x=p%%16, y=-(p%/%16), shape=p), size=5, fill="red") +
+    geom_text(mapping=aes(x=p%%16, y=-(p%/%16+0.25), label=p), size=3) +
+    scale_shape_identity() +
+    theme(axis.title=element_blank(),
+          axis.text=element_blank(),
+          axis.ticks=element_blank(),
+          panel.background=element_blank())
+}
+
+source: https://rdrr.io/cran/tmap/man/tm_symbols.html
