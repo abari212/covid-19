@@ -37,9 +37,9 @@ Some of the examples on predictive modeling or prediction are also available at 
 --------
 Privacy matters!
 
-Tracing and modeling are carried out based on privacy-preserving approaches, without using personal information. Privacy experts in Europe have developed an approach called Decentralized Privacy-Preserving Proximity Tracing (DP-PPT) and thier paper on this DP-PPT approach is available at https://lnkd.in/f9etcRp.
+Tracing and modeling are carried out based on privacy-preserving approaches, without using personal information. Privacy experts in Europe have developed an approach called Decentralized Privacy-Preserving Proximity Tracing (DP-PPT) and their paper on this DP-PPT approach is available at https://lnkd.in/f9etcRp.
 
-The approach that we have been using is also a privacy-preserving based approach, which is based a "non-contact tracing" approach, to trace and predict the trends. It is a non contact tracing porcedure. As the situation unfolds, there are also risks that contact tracing may be the norme and that these "risks intersecting with the coronavirus crisis may drive developments in a direction that might undermine individual privacy rights", wrote Natasha Lomas at https://lnkd.in/fy3-MB3. 
+The approach that we have been using is also a privacy-preserving based approach, which is based on a "non-contact tracing" approach, to trace and predict the trends. It is a non contact tracing porcedure. As the situation unfolds there are "risks intersecting with the coronavirus crisis that may drive developments in a direction that might undermine individual privacy rights", wrote Natasha Lomas at https://lnkd.in/fy3-MB3. 
 
 Privacy matters in this project.
 
