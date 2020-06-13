@@ -46,7 +46,9 @@ Privacy matters in this project.
 
 ------------
 Some other GitHub data sources at : 
+
 Looker Data Repository - https://github.com/looker/covid19
+
 Johns Hopkins University (JHU/CSSE) COVID-19 datasets - https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
 
