@@ -14,20 +14,15 @@ https://www.linkedin.com/posts/abdallah-bari-2a788b14_covid19-patterns-physicald
 The UN-WHO data, with the codes, consists of two sets, one on the virus incidence (number of cases) and one on the geo-location information of the area where the incidence occurred. The data on the incidence was extracted from UN-WHO daily reports and the data on the geo-location from Google. Case illustration at https://github.com/abari212/covid-19/blob/master/spread_w.gif
 
 The The UN-WHO data is used to illustrate the codes outcome. 
-Any data can be used, such as a city data of covid-19 incidence, can be prepared as two datasets:
+Any data can be used, such as a city data of covid-19 incidence, can be prepared as two datasets 
+The two datasets can be feed to the algorithm as file (a) and file (b), the two file can be merged autmatically.
+To make more simple just one set of data can be used or even the app can read data automatically 
 
-A dataset (file a) with the name of the location with the incidence, in the form of: 
-•	Date,
-•	Location name, 
-•	Incidence (number of cases).
+A one dataset with the name of the location with the incidence, in the form of: 
+•	Date/Time
+•	Location or the vicinity name of the incidence, and the
+•	Incidence (number of cases). The app can generate new cases, if any, by itself.
 
-A dataset (file b) with geolocation data of the location (NOT the person) where the incidence occurred (number of cases):
-•	  Location name,
-•	  Longitude,
-•	  Latitude.
- 
-The two datasets can be feed to the algorithm as file (a) and file (b).
- 
 Once the two files are uploaded all the rest will be done automatically to generate the spread and eventually the patterns, if any.
  
 Other variables can be added to the merged data for more in-depth analysis and prediction. 
