@@ -3,7 +3,7 @@
 Tracing based on privacy-preserving approach and modeling are being explored to help curb the covid-19 virus spread. Modeling can help to avoid outbreacks/surges, ahead of time.
 
 -------------------
-The codes are at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
+The codes are also available at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
 -------------------
 
 This repository contains both codes and data (UN World Health Organisation data) to help to trace and model the spread of covid-19. Tracing has been found to be an effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
@@ -24,6 +24,8 @@ A one dataset with the name of the location with the incidence, in the form of:
 •	Incidence (number of cases). The app can generate new cases, if any, by itself.
 
 Once the two files are uploaded all the rest will be done automatically to generate the spread and eventually the patterns, if any.
+
+Data can be read and prepared automatically, helping thus to read data at any time and at any place. Once read and prepared the predictions can be generated immediately.  
  
 Other variables can be added to the merged data for more in-depth analysis and prediction. 
 There a number of ways to add other variables and develop predictive model. 
