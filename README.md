@@ -1,12 +1,15 @@
 # Covid-19
 
-Tracing based on privacy-preserving approach and modeling are being explored to help curb the covid-19 virus spread. Modeling can help to avoid outbreacks/surges, ahead of time.
+Predicting hotspots on near real time to help stop the spread of covid-19. 
 
 -------------------
 The codes are also available at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
 -------------------
 
-This repository contains both codes and data (UN World Health Organisation data) to help to trace and model the spread of covid-19. Tracing has been found to be an effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
+This repository contains both codes and data (UN World Health Organisation data) to help to trace and model the spread of covid-19. Prediction have been found to be another effective measure to curb the spread of covid-19, in addition to physical distancing.  “Slowing the spread of the infection is nearly as important as stopping it”, NY Times (27 March 2020). https://www.nytimes.com/article/flatten-curve-coronavirus.html
+
+Predicting likely hotspots earlier can help to take preventive measures to reduce the number of infections. 
+​Predictive models have shown that by acting just a week earlier, 65% of infections would have been avoided. If the same protective measures had been applied three weeks earlier that number would have reached 95% of reduced infections.
 
 The script can be more relevant at a much more granular scale, such as a municipality/city. 
 https://www.linkedin.com/posts/abdallah-bari-2a788b14_covid19-patterns-physicaldistancing-activity-6652257884052742144-7_Tv
