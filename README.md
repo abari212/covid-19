@@ -4,6 +4,7 @@ Predicting likely hotspots on near real time to help stop the spread of covid-19
 To help fight Covid-19, OperAI has considered, early 2020, developing new hardware (IoTs) and software applications with privacy-preserving approaches.
 This is part of OperAI' s work with partners on mobility as a service!
 
+
 -------------------
 The codes are also available at https://github.com/abari212/covid-19/blob/master/tracing_modeling_covid_19_spread.R and will be updated along with data.
 -------------------
